@@ -13,7 +13,7 @@
 computing systems}
 \author[Autor]{YOUSEF RAJAEI TABRIZI}
 \institute[ULL]{Universidad de La Laguna}
-\date[11-1-2016]{\today}
+\date{11 de enero de 2016}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usetheme{Madrid}
@@ -56,122 +56,124 @@ computing systems}
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+
+%\section{Motivación y Objetivos}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \begin{frame}
-\frametitle{Diagramas of expriments }
+\frametitle{Generate model }
 %------------------------------------------------------------------------------
 \begin{figure}[!th]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{img/queu.eps}
-\caption{frequencia de la aparecion de los barcos}
-\label{fig:1}
+\includegraphics[width=1\textwidth]{img/pic2.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
 \end{center}
 \end{figure}
 %------------------------------------------------------------------------------
 \end{frame}
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \begin{frame}
-  \frametitle{Índice}  
-  \tableofcontents[pausesections]
+\frametitle{The frequence of one exprimente }
+%------------------------------------------------------------------------------
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=1\textwidth]{img/pic3.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
+\end{center}
+\end{figure}
+%------------------------------------------------------------------------------
 \end{frame}
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
-
-
-\section{Motivación y Objetivos}
-
-
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
-\begin{frame}
-
-\frametitle{Motivación}
-
-\begin{definicion}
-The optimal assignment of berth slots and cranes to shipping services is the central logistics problem at modern marine
-container terminals and should be formulated to specifically account for its stochastic nature. We use a computational grid
-to solve a major seaport logistic problem by a simulation optimization approach centred around a queuing network model
-of the logistic process of interest. We emphasize the power of grid computing for the simulation optimization studies and
-we design and implement an algorithm for distributing the computational load to parallel processors. Performance of the
-algorithm is demonstrated numerically using real-sized problem instances.
- 2006 Elsevier B.V. All rights reserved.
-\end{definicion}
-
-\end{frame}
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
-\begin{frame}
 
-\frametitle{Objetivos }
-
-\begin{block}{Ejemplo}
-  \begin{itemize}
-  \item
-   Using technics of simulation for optimization
-  \pause
-
-  \item
-   Using techincs of parallelization 
-
-  \end{itemize}
-\end{block}
-
-\end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
-
 \section{Fundamentos Teóricos}
 
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \begin{frame}
-\frametitle{Fundamentos Teóricos}
-
-In the sequel we illustrate the proposed queuing model in which we eliminate some details from the model
-description of Legato and Mazza [12] because they are not significant for the purpose of this paper.
-We assume that the occurrence of a delay-time spent at roadstead by an incoming vessel, due to lack of
-berth slots, is represented as a special case of the phase type Cox’s distribution. This assumption can be
-accepted for the following considerations. Usually, an incoming vessel receives almost immediately the
-required slots for berthing. In this case, with a very high probability (p), the elapsing interval from ‘‘arrival
-to port’’ and ‘‘berthing time completion’’ results in a very short time (l1, on average), due to the relatively
-fast operations for vessel positioning along the berth. With a very low probability (1  p), an arrived vessel
-is delayed at roadstead due to unavailability of the required berth slots: once this happens, then a very long
-interval (l1 + l2, on average) elapses from ‘‘arrival to port’’ and ‘‘berthing time’’ (Fig. 1).
-
-
+\frametitle{ Qeueing model}
+%------------------------------------------------------------------------------
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=1\textwidth]{img/pic4.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
+\end{center}
+\end{figure}
+%------------------------------------------------------------------------------
 \end{frame}
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+\begin{frame}
+\frametitle{Data table of qeueing model }
+%------------------------------------------------------------------------------
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=1\textwidth]{img/pic5.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
+\end{center}
+\end{figure}
+%------------------------------------------------------------------------------
+\end{frame}
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \section{Procedimiento experimental}
 
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \begin{frame}
-\frametitle{Procedimiento experimental}
-
-In this paper, we focus on the case where incoming vessels (customers) belonging to one out of a set of maritime
-shipping ‘‘services’’ (customer classes) can be berthed into shared segments of berth. Each berth segment
-(out of ‘‘n’’) corresponds to a fixed number of vessel positions for berthing and is equipped with one or several
-cranes; in Fig. 3 it is represented as a multi-server queue with a finite number of waiting places. The delay-time
-at roadstead, for berth assignment operations, is represented by a single server queue with unlimited waiting
-places.
-In the berth planning problem, we should answer the following questions:
-• how many segments do we organise for active shipping services?
-• how many cranes – out of the total, fixed, number of available ones – do we allocate for each of the organised
-segments?
-• to which segment do we forward incoming vessels, provided that we may base this decision on some suitable
-attributes shared by any given subset of the active services?
-Answers to these questions are provided by the simulation optimization approach.
-
+\frametitle{The queuing model }
+%------------------------------------------------------------------------------
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=1\textwidth]{img/pic6.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
+\end{center}
+\end{figure}
+%------------------------------------------------------------------------------
 \end{frame}
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \begin{frame}
-\frametitle{Diagramas of expriments }
+\frametitle{Requisitos }
 %------------------------------------------------------------------------------
 \begin{figure}[!th]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{img/diagrama.eps}
-\caption{frequencia de la aparecion de los barcos}
-\label{fig:1}
+\includegraphics[width=1\textwidth]{img/pic7.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
 \end{center}
 \end{figure}
 %------------------------------------------------------------------------------
@@ -180,14 +182,17 @@ Answers to these questions are provided by the simulation optimization approach.
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \begin{frame}
-\frametitle{Diagramas of expriments }
+\frametitle{The formul generation }
 %------------------------------------------------------------------------------
 \begin{figure}[!th]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{img/queu.eps}
-\caption{frequencia de la aparecion de los barcos}
-\label{fig:1}
+\includegraphics[width=1\textwidth]{img/pic8.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
 \end{center}
 \end{figure}
 %------------------------------------------------------------------------------
@@ -195,140 +200,162 @@ Answers to these questions are provided by the simulation optimization approach.
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+\begin{frame}
+\frametitle{Sharp algorithm }
+%------------------------------------------------------------------------------
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=1\textwidth]{img/pic9.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
+\end{center}
+\end{figure}
+%------------------------------------------------------------------------------
+\end{frame}
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \subsection{Descripción de los experimentos}
-
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \begin{frame}
-\frametitle{A combined procedure for simulation optimization problems}
-
-\begin{ejemplo}
-  \begin{itemize}
-    \item <1-> Algorithm description 
-    \item <2-> Grid enabled versions for the SARP algorithm 
-    \item <3> Algorithm 2. SARP 
-  \end{itemize}
-\end{ejemplo}
-
+\frametitle{Sharp algorithm }
+%------------------------------------------------------------------------------
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=1\textwidth]{img/pic10.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
+\end{center}
+\end{figure}
+%------------------------------------------------------------------------------
 \end{frame}
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 \subsection{Descripción del Algorithms }
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \begin{frame}
-\frametitle{Hardware y Software}
-
-\begin{ejemplo}
-  \begin{enumerate}
-    \item
-      With the aim of developing grid versions of the SARP algorithm described above (in the sequel G-SARP),
-we have adopted a master/worker approach [16,4,19].
-Let p be the number of workers. At iteration k, the master creates p + 1 perturbations of a same configuration
-of the system (i.e. p + 1 neighbours of the current solution), keeps for itself the first generated configuration
-to be estimated and sends the others to the workers (one configuration for each worker). Each processor,
-including the master, must decide if its own configuration can be accepted or not. If a processor accepts its
-own solution (according to the acceptance criterion of SARP), then sends it to the master. If the master has
-new solutions to examine, it selects the next configuration, otherwise it keeps the old one. There are different
-rules for selection; for example, the master can choose the configuration with the best estimated performance
-(best strategy) or it can make a random choice (random strategy). We have implemented both, and we present in 
-      \pause
-
-    \item
- Nasim2
-  \end{enumerate}
-\end{ejemplo}
-
+\frametitle{Computational expriments }
+%------------------------------------------------------------------------------
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=1\textwidth]{img/pic11.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
+\end{center}
+\end{figure}
+%------------------------------------------------------------------------------
 \end{frame}
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 \subsection{Resultados obtenidos}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \begin{frame}
-\frametitle{Computational experiments}
-
+\frametitle{Computational expriments }
 %------------------------------------------------------------------------------
-\input{tables/table.tex}
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=1\textwidth]{img/pic12.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
+\end{center}
+\end{figure}
 %------------------------------------------------------------------------------
-
 \end{frame}
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
-
-
 \subsection{Análisis de los resultados}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \begin{frame}
-\frametitle{Diagramas of expriments }
-
+\frametitle{Recurses }
 %------------------------------------------------------------------------------
 \begin{figure}[!th]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{img/imagen_moeye.eps}
-\caption{imagen de la muelle}
-\label{fig:1}
+\includegraphics[width=1\textwidth]{img/pic13.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
 \end{center}
 \end{figure}
 %------------------------------------------------------------------------------
-
 \end{frame}
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%------------------------------------------------------------------------------
+%\end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \begin{frame}
-\frametitle{Diagramas of expriments }
+\frametitle{Computational expriments }
 %------------------------------------------------------------------------------
 \begin{figure}[!th]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{img/master_p.eps}
-\caption{imagen de la muelle}
-\label{fig:1}
+\includegraphics[width=1\textwidth]{img/pic14.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
 \end{center}
 \end{figure}
 %------------------------------------------------------------------------------
 \end{frame}
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \section{Conclusiones}
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \begin{frame}
-\frametitle{Conclusiones}
-
-\begin{ejemplo}
-  \begin{enumerate}
-    \item
-      We have designed and implemented on a grid platform a simulation optimization algorithm that requires a
-limited amount of communication and a minimal synchronization among computing resources. It could be
-used for a cost-effective solution of logistics decision problems at seaport container terminals. Numerical evidence
-shows that as the number of workers increases, the quality of the final solution improves. A crucial role
-is played by the optimal compromise between searching the entire feasible region (exploration) and locally
-searching promising sub-regions (exploitation).
-      \pause
-    \item
-  Nasim3
-  \end{enumerate}
-\end{ejemplo}
-
+\frametitle{Conclucion }
+%------------------------------------------------------------------------------
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=1\textwidth]{img/pic15.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
+\end{center}
+\end{figure}
+%------------------------------------------------------------------------------
 \end{frame}
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 \begin{frame}
-  \frametitle{Bibliografía}
-
-  \begin{thebibliography}{10}
-
-    \beamertemplatebookbibitems
-    \bibitem[URL: CTAN]{latex} 
-    CTAN. {\small $http://www.ctan.org/$}
-
-    \beamertemplatebookbibitems
-    \bibitem[Tantau, 2005]{beamer} 
-    Tantau, Till. 
-    \emph{User's Guide to the \beamer{} Class, Version 3.06, 2005} 
-    {\small $http://ctang.tug.org/tex-archive/macros/latex/contrib/beamer$}
-
-
-  \end{thebibliography}
+\frametitle{ }
+%------------------------------------------------------------------------------
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=1\textwidth]{img/pic16.eps}
+%\caption{frequencia de la aparecion de los barcos}
+%\label{fig:1}
+\end{center}
+\end{figure}
+%------------------------------------------------------------------------------
 \end{frame}
+%""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
